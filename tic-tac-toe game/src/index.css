@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+:root {
+    --silver: #a8bfc9;
+}
+
+.selected {
+    background-color: var(--silver);
+}
+
+.selected img {
+    filter: brightness(0) saturate(100%) invert(12%) sepia(32%) saturate(740%)
+        hue-rotate(157deg) brightness(91%) contrast(89%);
+}
+
+.xIcon,
+.oIcon,
+.turn-icon {
+    filter: brightness(0) saturate(100%) invert(84%) sepia(7%) saturate(693%)
+        hue-rotate(153deg) brightness(90%) contrast(86%);
+}
+
+.restart-icon {
+    filter: brightness(0) saturate(100%) invert(16%) sepia(26%) saturate(752%)
+        hue-rotate(154deg) brightness(101%) contrast(93%);
+}
