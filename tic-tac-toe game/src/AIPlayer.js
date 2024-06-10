@@ -1,10 +1,7 @@
 import { GameHelper } from "./GameHelper";
 
 export class AIPlayer {
-    constructor() {
-        this.previousMove = [];
-        this.moveTaken = false;
-    }
+    constructor() {}
 
     getMoveScore(turn, move) {
         const gameHelper = new GameHelper(move);
