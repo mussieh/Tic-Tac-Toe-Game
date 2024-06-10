@@ -25,12 +25,6 @@ export default {
             fontFamily: {
                 sans: ["Outfit", "sans-serif"],
             },
-            backgroundImage: () => ({
-                xOutline:
-                    "url('/tic-tac-toe game/src/assets/images/icon-x-outline.svg')",
-                oOutline:
-                    "url('/tic-tac-toe game/src/assets/images/icon-o-outline.svg')",
-            }),
         },
     },
     plugins: [
